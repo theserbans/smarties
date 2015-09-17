@@ -1,0 +1,7 @@
+[user]
+	email = adrian.serban@sympatico.ca
+	name = Adrian Serban
+[push]
+	default = simple
+[core]
+	editor = vim

@@ -1,0 +1,12 @@
+
+# packages
+- vim
+
+## ubuntu
+- vifm
+- htop
+
+## redhat
+[vifm]()
+[htop]()
+
