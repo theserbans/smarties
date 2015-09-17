@@ -1,12 +1,25 @@
 
+[package search/ downl](http://pkgs.org)
+
 # packages
 - vim
+- tmux
+- [pathogen.vim](https://github.com/tpope/vim-pathogen)
+
+        mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+        curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
 
 ## ubuntu
-- vifm
-- htop
+vifm
+htop
 
 ## redhat
-[vifm]()
-[htop]()
+
+[vifm](http://vifm.info/downloads.shtml)
+- pkg dependency
+    - gcc
+    - ncurses-devel
+
+[htop](http://dl.fedoraproject.org/pub/epel/7/x86_64/h/htop-1.0.3-3.el7.x86_64.rpm)
 
