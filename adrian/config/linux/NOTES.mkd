@@ -2,13 +2,11 @@
 [package search/ downl](http://pkgs.org)
 
 # packages
+- gcc
 - vim
-- tmux
+- [tmux](https://github.com/tmux/tmux.git)
+    - [tmux-mem-cpu-load](https://github.com/xx) | g++
 - [pathogen.vim](https://github.com/tpope/vim-pathogen)
-
-        mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-        curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-
 
 ## ubuntu
 vifm
@@ -16,7 +14,7 @@ htop
 
 ## redhat
 
-[vifm](http://vifm.info/downloads.shtml)
+[vifm](https://github.com/vifm/vifm.git)
 - pkg dependency
     - gcc
     - ncurses-devel
