@@ -2,6 +2,7 @@
 [package search/ downl](http://pkgs.org)
 
 # packages
+- gcc
 - vim
 - tmux
 - vifm
