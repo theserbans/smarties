@@ -2,9 +2,12 @@
 [package search/ downl](http://pkgs.org)
 
 # packages
-- gcc
 - vim
 - tmux
 - vifm
+    - tmux-mem-cpu-load
+        - gcc
+        - cmake
+        - g++ [ubuntu]/ gcc-c++ [centos]
 - htop
 
