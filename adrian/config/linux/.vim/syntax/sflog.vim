@@ -105,7 +105,7 @@ hi link onmessage Type
 hi link onparked todo
 hi link mqinvoke Underlined
 
-let b:current_syntax = "javalog"
+let b:current_syntax = "sflog"
 
 " This creates a keyword ERROR and puts it in the highlight group called logError
 ":syn keyword logError ERROR
