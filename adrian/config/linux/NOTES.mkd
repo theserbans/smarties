@@ -22,5 +22,6 @@ htop
     - gcc
     - ncurses-devel
     - if `make` fails with `aclocal-1.15` error then before running `configure` run `autoreconf -f -i`
+    - copy `.config` folder to `~/.config`; remove `~/.vifm` folder if present
 
 [htop](http://dl.fedoraproject.org/pub/epel/7/x86_64/h/htop-1.0.3-3.el7.x86_64.rpm)
