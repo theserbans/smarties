@@ -9,6 +9,8 @@ map <leader>p "*p
 map <leader>y "*y
 nmap <leader>ev :tabedit $MYVIMRC<cr>
 nmap <leader>nt :NERDTreeToggle <CR>
+nmap <leader>t :Toch <CR>
+nmap <leader>u :GundoToggle <CR>
 "nmap <leader>w <C-w>w
 "nmap <leader><Tab> <C-w>w
 nmap <Tab> <C-w>w
@@ -38,6 +40,7 @@ set background=dark             " Use colours that work well on a dark backgroun
 set showmode                    " show the current mode
 set mousehide                   " hide mouse while typing
 set scrolloff=10                " search scroll offset
+set nowrap                      " no line wrap
 syntax on                       " turn syntax highlighting on by default
 
 " Show EOL type and last modified timestamp, right after the filename
