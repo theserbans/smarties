@@ -1,27 +1,39 @@
 
 [package search/ downl](http://pkgs.org)
+[rpm search](http://rpm.pbone.net/index.php3)
 
-# packages
-- vim
-- tmux
+*TODO*
+- copy `~/.ssh` keys; set right permissions, initialize ssh-agent, ssh-add private key
+- `get-sources.sh` -- centos: use htop/ tmux rpms below instead
+- `.tmux.conf` copy to `~`; latest version of the config file needed
+- copy `.config` folder to `~/.config`; remove `~/.vifm` folder if present
+
+# dependencies
+
+tmux
+- [centos6](ftp://ftp.pbone.net/mirror/ftp5.gwdg.de/pub/opensuse/repositories/home:/kalyaka/CentOS_CentOS-6/x86_64/tmux-1.8-6.1.x86_64.rpm) 
+    - [libevent2](ftp://ftp.pbone.net/mirror/ftp5.gwdg.de/pub/opensuse/repositories/home:/kalyaka/CentOS_CentOS-6/x86_64/libevent2-2.0.21-11.1.x86_64.rpm)
+
 - [pathogen.vim](https://github.com/tpope/vim-pathogen)
 
         mkdir -p ~/.vim/autoload ~/.vim/bundle && \
         curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 - tree
+- tmux-mem-cpu-load
 
-
-## ubuntu
-vifm
-htop
-
-## redhat
+        cmake
+        gcc-c++
 
 [vifm](http://vifm.info/downloads.shtml)
 - pkg dependency
     - gcc
     - ncurses-devel
-    - if `make` fails with `aclocal-1.15` error then before running `configure` run `autoreconf -f -i`
+    - if `make` fails with `aclocal-1.15` error then, before running `./configure`:
+        - install `automake`
+        - run `autoreconf -f -i`
     - copy `.config` folder to `~/.config`; remove `~/.vifm` folder if present
 
-[htop](http://dl.fedoraproject.org/pub/epel/7/x86_64/h/htop-1.0.3-3.el7.x86_64.rpm)
+htop
+- [centos6](ftp://ftp.pbone.net/mirror/ftp5.gwdg.de/pub/opensuse/repositories/home:/kalyaka/CentOS_CentOS-6/x86_64/htop-1.0.2-6.1.x86_64.rpm)
+- [centos7](http://dl.fedoraproject.org/pub/epel/7/x86_64/h/htop-1.0.3-3.el7.x86_64.rpm)
+

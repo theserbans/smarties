@@ -6,6 +6,7 @@ cp .bashrc ~/.bashrc
 mv ~/.profile ~/.profile.bkp
 cp .profile ~/.profile
 cp .bash_profile ~/.bash_profile
+cp .dir_colors ~/.dir_colors
 
 
 # vim
@@ -13,8 +14,8 @@ cp .vimrc ~/.vimrc
 cp .config ~/.config
 
 mkdir ~/.vim
-cp .vim/colors ~/.vim/colors
-cp .vim/syntax ~/.vim/syntax
+cp -r .vim/colors ~/.vim/colors
+cp -r .vim/syntax ~/.vim/syntax
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
